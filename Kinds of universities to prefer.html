@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Selection Guide</title>
+    <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>What to Look for in a University?</h1>
+        <label for="career">Select Your Career Interest:</label>
+        <select id="career">
+            <option value="">-- Choose --</option>
+            <option value="engineering">Engineering & Technology</option>
+            <option value="medicine">Medicine & Healthcare</option>
+            <option value="business">Business & Management</option>
+            <option value="arts">Arts & Humanities</option>
+            <option value="science">Science & Research</option>
+            <option value="law">Law & Government</option>
+        </select>
+        <button onclick="showGuidance()">Get Guidance</button>
+
+        <div id="guidanceResult"></div>
+    </div>
+
+    <script src="Universities.js"></script>
+</body>
+</html>
